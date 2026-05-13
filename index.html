@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Portafolio Premium | Arthur</title>
+</head>
+<body>
+    <!-- Background Decorators -->
+    <div class="bg-blob blob-1"></div>
+    <div class="bg-blob blob-2"></div>
+    <div class="bg-blob blob-3"></div>
+
+    <!-- Navegación -->
+    <nav class="navbar glass">
+        <div class="nav-brand">
+            <span class="gradient-text">AR.</span>
+        </div>
+        <div class="nav-links">
+            <a href="#inicio" class="navbar-link active">Inicio</a>
+            <a href="#info" class="navbar-link">Habilidades</a>
+            <a href="#proyectos" class="navbar-link">Proyectos</a>
+            <a href="#contacto" class="navbar-link btn-glow">Hablemos</a>
+        </div>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <main class="contenedor">
+        <!-- Hero Section -->
+        <section class="seccion-hero" id="inicio">
+            <div class="hero-content">
+                <p class="hero-subtitle">Hola, mi nombre es Arturo Rodriguez</p>
+                <h1 class="hero-title">
+                    Construyendo <br>
+                    <span class="gradient-text-animated">Experiencias Digitales</span>
+                </h1>
+                <p class="hero-desc">Desarrollador Full Stack con más de 20 años de experiencia, especializado en el sector automotriz y en crear soluciones de alto rendimiento.</p>
+                <div class="hero-cta">
+                    <a href="#proyectos" class="btn btn-primary">Ver mis trabajos</a>
+                    <a href="https://github.com" target="_blank" class="btn btn-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com" target="_blank" class="btn btn-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="glass-glow glow-hero"></div>
+                <img src="img/fotoArt.jpg" alt="Arturo Rodriguez" class="img-persona" />
+                
+                <!-- Floating badges -->
+                <div class="badge badge-react glass badge-float-1">
+                    <i class="fab fa-golang"></i> Go
+                </div>
+                <div class="badge badge-node glass badge-float-2">
+                    <i class="fab fa-vuejs"></i> Vue.js
+                </div>
+                <div class="badge badge-aspnet glass badge-float-3">
+                    <i class="fab fa-windows"></i> ASP.NET
+                </div>
+                <div class="badge badge-gin glass badge-float-4">
+                    <i class="fas fa-cogs"></i> Gin
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Habilidades (Acerca de) -->
+        <section class="seccion-skills" id="info">
+            <div class="section-header">
+                <h2 class="section-title">Mi <span class="gradient-text">Arsenal</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Tech Stack Cards -->
+                <div class="glass-card skill-card">
+                    <i class="fab fa-windows skill-icon" style="color: #0078d7;"></i>
+                    <h3>Back-end (.NET)</h3>
+                    <p><strong>Stack:</strong> ASP.NET Core, SQL Server.</p>
+                    <p><strong>Experiencia:</strong> Web APIs, ASP.NET Core MVC, Entity Framework Core, Blazor, Dapper.</p>
+                </div>
+
+                <div class="glass-card skill-card">
+                    <i class="fab fa-react skill-icon" style="color: #61dafb;"></i>
+                    <h3>Front-End</h3>
+                    <p>Puedo crear front-ends robustos los cuales cumplen con los requerimientos del negocio.</p>
+                    <p><strong>Stack:</strong> React, Angular, Blazor.</p>
+                </div>
+
+                <div class="glass-card skill-card">
+                    <i class="fab fa-golang skill-icon" style="color: #00add8;"></i>
+                    <h3>Backend (Go)</h3>
+                    <p>Desarrollo de microservicios y APIs robustas, concurrentes y altamente escalables.</p>
+                    <p><strong>Stack:</strong> Go, Gin, GORM.</p>
+                </div>
+                
+                <div class="glass-card skill-card">
+                    <i class="fab fa-vuejs skill-icon" style="color: #4fc08d;"></i>
+                    <h3>Frontend (JavaScript)</h3>
+                    <p>Interfaces dinámicas y de alto impacto enfocadas en el rendimiento web.</p>
+                    <p><strong>Stack:</strong> Next.js o Vue.js.</p>
+                </div>
+
+                <div class="glass-card skill-card">
+                    <i class="fas fa-server skill-icon" style="color: #336791;"></i>
+                    <h3>Infraestructura</h3>
+                    <p>Gestión de despliegues, orquestación de contenedores y bases de datos relacionales.</p>
+                    <p><strong>Stack:</strong> Docker, PostgreSQL.</p>
+                </div>
+
+                <div class="glass-card skill-card">
+                    <i class="fas fa-car skill-icon" style="color: #f05032;"></i>
+                    <h3>Especialización</h3>
+                    <p>Más de 20 años de experiencia en el sector automotriz: control de producción, inventarios, embarques e interfaces ERP.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Proyectos -->
+        <section class="seccion-proyectos" id="proyectos">
+            <div class="section-header">
+                <h2 class="section-title">Trabajos <span class="gradient-text">Destacados</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="proyectos-grid">
+                <!-- Proyecto 1 -->
+                <div class="glass-card proyecto-card">
+                    <div class="proyecto-img-container">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" alt="Control de Producción" class="proyecto-img" />
+                        <div class="proyecto-overlay">
+                            <a href="#" class="btn-circle btn-view" title="Ver Proyecto"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="btn-circle btn-github" title="Código Fuente"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="proyecto-info">
+                        <p class="proyecto-tech" style="color: #0078d7; font-weight: 600;"><i class="fab fa-windows"></i> ASP.NET 10 • Blazor • SQL Server</p>
+                        <h3 class="proyecto-titulo">Control de Producción en Tiempo Real</h3>
+                        <p class="proyecto-desc">Plataforma integral para la industria automotriz. Desarrollada con <strong>ASP.NET Core 10</strong>, esta solución utiliza Entity Framework Core para la gestión de datos estructurados, permitiendo el monitoreo de líneas de ensamblaje con un rendimiento excepcional.</p>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2 -->
+                <div class="glass-card proyecto-card">
+                    <div class="proyecto-img-container">
+                        <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&h=400&fit=crop" alt="Inventarios Automotriz" class="proyecto-img" />
+                        <div class="proyecto-overlay">
+                            <a href="#" class="btn-circle btn-view"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="btn-circle btn-github"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="proyecto-info">
+                        <p class="proyecto-tech" style="color: #61dafb; font-weight: 600;"><i class="fab fa-react"></i> ASP.NET 10 • React • Web APIs</p>
+                        <h3 class="proyecto-titulo">Plataforma Avanzada de Inventarios</h3>
+                        <p class="proyecto-desc">Sistema para el control de refacciones. Su backend robusto en <strong>ASP.NET 10</strong> expone Web APIs seguras mediante Dapper para consultas ultra rápidas, consumidas por un frontend dinámico e interactivo construido con <strong>React</strong>.</p>
+                    </div>
+                </div>
+
+                <!-- Proyecto 3 -->
+                <div class="glass-card proyecto-card">
+                    <div class="proyecto-img-container">
+                        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop" alt="Logística y Embarque" class="proyecto-img" />
+                        <div class="proyecto-overlay">
+                             <a href="#" class="btn-circle btn-view"><i class="fas fa-eye"></i></a>
+                             <a href="#" class="btn-circle btn-github"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="proyecto-info">
+                        <p class="proyecto-tech" style="color: #00add8; font-weight: 600;"><i class="fab fa-golang"></i> Go • Gin • Docker</p>
+                        <h3 class="proyecto-titulo">Orquestador Logístico de Embarques</h3>
+                        <p class="proyecto-desc">Módulo de alta concurrencia desarrollado íntegramente en <strong>Go</strong>. Implementa microservicios con el framework <strong>Gin</strong> y se encuentra totalmente contenedorizado con <strong>Docker</strong> para garantizar una escalabilidad sin interrupciones.</p>
+                    </div>
+                </div>
+                
+                 <!-- Proyecto 4 -->
+                 <div class="glass-card proyecto-card">
+                    <div class="proyecto-img-container">
+                        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&h=400&fit=crop" alt="Integración ERP" class="proyecto-img" />
+                        <div class="proyecto-overlay">
+                             <a href="#" class="btn-circle btn-view"><i class="fas fa-eye"></i></a>
+                             <a href="#" class="btn-circle btn-github"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="proyecto-info">
+                        <p class="proyecto-tech" style="color: #4fc08d; font-weight: 600;"><i class="fab fa-vuejs"></i> Go • GORM • Next.js • PostgreSQL</p>
+                        <h3 class="proyecto-titulo">Conectores y APIs para ERPs</h3>
+                        <p class="proyecto-desc">Desarrollo de interfaces empresariales para sincronización de datos bidireccional. Utiliza <strong>Go y GORM</strong> para el acceso eficiente a <strong>PostgreSQL</strong>, complementado con un moderno panel administrativo en <strong>Next.js</strong>.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="ver-mas-container">
+                 <a href="https://github.com" target="_blank" class="btn btn-outline">Ver más proyectos en GitHub <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section class="seccion-contacto" id="contacto">
+             <div class="contacto-wrapper glass-card">
+                <div class="contacto-info">
+                    <h2>¿Listo para <span class="gradient-text">escalar</span> tu próximo proyecto?</h2>
+                    <p>Actualmente estoy disponible para trabajar como freelance o posiciones full-time. Si tienes algo en mente, ¡no dudes en escribirme!</p>
+                    
+                    <div class="contacto-directo">
+                        <a href="mailto:arturordzy@gmail.com" class="contacto-link">
+                            <i class="fas fa-envelope"></i> arturordzy@gmail.com
+                        </a>
+                        <a href="tel:+520000000000" class="contacto-link">
+                            <i class="fas fa-phone-alt"></i> +52 (000) 000-0000
+                        </a>
+                    </div>
+                </div>
+                
+                <form id="contact-form" class="formulario-contacto" action="https://formspree.io/f/mqengowl" method="POST">
+                    <div class="input-grupo">
+                        <label for="nombre" class="form-label-premium">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu Nombre" required />
+                    </div>
+                    <div class="input-grupo">
+                        <label for="email" class="form-label-premium">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="nombre@ejemplo.com" required />
+                    </div>
+                    <div class="input-grupo">
+                        <label for="mensaje" class="form-label-premium">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" placeholder="Cuéntame sobre tu proyecto o idea..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        Enviar Mensaje <i class="fas fa-paper-plane"></i>
+                    </button>
+                    <div id="form-status" class="form-respuesta"></div>
+                </form>
+             </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <span class="gradient-text footer-brand">AR.</span>
+            <div class="footer-social">
+                <a href="https://github.com/arturordzy" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/arturordzy" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Diseñado & Construido con 🩵 por Arturo Rodriguez.</p>
+            <p class="copyright">&copy; 2026 Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
